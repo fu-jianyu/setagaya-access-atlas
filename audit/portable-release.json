@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "checks": [
+    "All route chunk SHA-256 hashes",
+    "Combined gzip hashes and dimensions",
+    "Every repository file <=25 MiB",
+    "Server starts from unrelated working directory",
+    "Module MIME type",
+    "HTTP index and manifest",
+    "Occupied preferred port chooses a different port"
+  ],
+  "routes": [
+    {
+      "category": "health",
+      "parts": 7,
+      "uncompressedBytes": 146832000
+    },
+    {
+      "category": "education",
+      "parts": 5,
+      "uncompressedBytes": 118272000
+    },
+    {
+      "category": "shopping",
+      "parts": 8,
+      "uncompressedBytes": 186256000
+    },
+    {
+      "category": "recreation",
+      "parts": 8,
+      "uncompressedBytes": 172032000
+    },
+    {
+      "category": "civic",
+      "parts": 3,
+      "uncompressedBytes": 58688000
+    }
+  ],
+  "repositoryBytes": 642469287
+}

@@ -1,0 +1,5 @@
+numpy==2.5.3
+scipy==1.18.1
+shapely==2.1.2
+networkx==3.6.1
+igraph==1.0.0

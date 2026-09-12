@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "pages": [
+    {
+      "page": "index.html",
+      "localReferences": 10
+    },
+    {
+      "page": "guide.html",
+      "localReferences": 3
+    }
+  ],
+  "files": 90,
+  "publicBytes": 623550304,
+  "metadata": {
+    "source": "OpenStreetMap contributors",
+    "license": "ODbL 1.0",
+    "osmTimestamp": "2026-09-12T13:27:06Z",
+    "boundaryRelation": 1759474,
+    "bbox": {
+      "minlat": 35.589977,
+      "minlon": 139.582386,
+      "maxlat": 35.6830054,
+      "maxlon": 139.6866146
+    },
+    "nodes": 28000,
+    "wardNodes": 10270,
+    "streets": 15752,
+    "routingEdges": 41869,
+    "poiCount": 6090,
+    "categories": [
+      {
+        "id": "health",
+        "name": "Healthcare",
+        "count": 1311,
+        "insideCount": 491
+      },
+      {
+        "id": "education",
+        "name": "Education",
+        "count": 1056,
+        "insideCount": 397
+      },
+      {
+        "id": "shopping",
+        "name": "Daily shopping",
+        "count": 1663,
+        "insideCount": 594
+      },
+      {
+        "id": "recreation",
+        "name": "Parks & recreation",
+        "count": 1536,
+        "insideCount": 477
+      },
+      {
+        "id": "civic",
+        "name": "Civic services",
+        "count": 524,
+        "insideCount": 175
+      }
+    ],
+    "discardedDisconnectedNodes": 4334,
+    "deduplicatedPois": 96,
+    "excludedFarPois": 3,
+    "distanceUnit": "metres, float32",
+    "walkingDefaultKmh": 4.8,
+    "demand": "one unit per retained inside-ward junction; illustrative, not population",
+    "supply": "one facility or declared type-based scenario weights; not observed capacity",
+    "routing": "undirected retained public street skeleton; buffered bounding box, no service alleys, footpaths, signal waits or slope",
+    "streetSampling": "two endpoints, equal weight; midpoint additionally when length exceeds 200 m",
+    "networkCentrality": "exact all-pair centralities on retained buffered junction graph, not space-syntax integration",
+    "poiConnector": "nearest retained junction; straight connector <=350 m; not an entrance-level route"
+  },
+  "sourceHashes": {
+    "dist\\model.mjs": "059c7edb4375ae39c6e7066facaa100a20a91c54be9dc33629604d635ce99ef6",
+    "dist\\worker.js": "f26fa37bb291e08f7045e383e65943a815aa1bb59866ee620c992a27a39f0294",
+    "dist\\main.mjs": "11925909c76bc6e1e41cc331f4aabce2e88be3b55b431a5a08500b217c298bfd",
+    "scripts\\precompute_presets.py": "83d24b288cf6d009eb53ba24da9662f3d3e7537a8edc688e962b23ca46087124"
+  }
+}

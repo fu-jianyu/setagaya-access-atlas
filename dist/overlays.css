@@ -1,0 +1,23 @@
+/* Compact map headings and a retractable legend with aligned calculation notes. */
+.map-heading{padding:10px 14px;background:rgba(255,255,255,.64);border-color:rgba(255,255,255,.45);border-radius:10px;box-shadow:none;max-width:calc(100% - 100px)}
+.map-heading h2{font-size:22px;line-height:1.2;margin:4px 0 5px;letter-spacing:-.5px}
+.map-heading .eyebrow{font-size:9px}
+.map-heading .map-subtitle{font-size:12px}
+.bottom-row{display:grid;grid-template-columns:minmax(0,365px) minmax(135px,1fr);align-items:end;gap:16px}
+.legend-dock{min-width:0;transition:transform .25s ease,opacity .2s ease}
+.legend-dock.is-collapsed{transform:translateY(calc(100% + 48px));opacity:0;pointer-events:none;visibility:hidden;transition:transform .25s ease,opacity .2s ease,visibility 0s .25s}
+.legend-dock .legend{position:relative;width:100%;max-width:none;padding:13px 16px}
+.legend-dock .legend-title{padding-right:26px}
+.legend-toggle{position:absolute;top:7px;right:8px;width:28px;height:28px;display:grid;place-items:center;border-radius:6px;color:var(--teal);font-size:23px;line-height:1}
+.legend-toggle:hover{background:#e8f3f4}
+.legend-toggle:focus-visible,.show-legend:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.legend-dock .status,.legend-dock .status.ready{position:static;inset:auto;width:100%;max-width:none;margin:8px 0 0;padding:9px 13px;border:1px solid #e0e9eb;border-radius:8px;background:#fffffff0;color:#536e78;font-size:12px;line-height:1.5;white-space:pre-line;overflow-wrap:anywhere}
+.bottom-row .map-stats{width:fit-content;min-width:145px;max-width:210px;justify-self:end;margin:0;padding:15px 20px;gap:0}
+.map-stats>div{flex-direction:column;align-items:flex-start;gap:0}
+.show-legend{position:absolute;z-index:651;bottom:0;left:32px;padding:9px 15px;border:1px solid #dbe8ea;border-bottom:0;border-radius:10px 10px 0 0;background:#fffffff2;box-shadow:0 -2px 12px #244c5b0a;color:var(--teal);font-size:13px;font-weight:600}
+.show-legend span{margin-left:12px}.show-legend[hidden]{display:none}
+@media(min-width:1600px){.show-legend{left:40px}}
+@media(max-width:1150px){.bottom-row{gap:10px;grid-template-columns:minmax(0,365px) minmax(130px,1fr)}.bottom-row .map-stats{min-width:130px;padding:14px}.show-legend{left:20px}}
+@media(max-width:760px){.map-heading h2{font-size:20px}.bottom-row{display:grid;grid-template-columns:minmax(0,1fr) 135px;gap:8px}.bottom-row .map-stats{width:135px;max-width:135px}.show-legend{left:12px}.legend-dock .legend{padding:12px}.legend-dock .legend-title{flex-wrap:wrap;gap:4px}.legend-note{display:none}}
+@media(max-width:520px){.bottom-row{display:block}.legend-dock{width:100%;margin-bottom:104px}.bottom-row .map-stats{position:absolute;bottom:0;right:0;padding:10px 14px}.legend-dock.is-collapsed{transform:translateY(calc(100% + 160px))}.show-legend{left:12px}}
+@media(prefers-reduced-motion:reduce){.legend-dock{transition:none}}

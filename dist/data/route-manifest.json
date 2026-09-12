@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "encoding": "gzip-float32-le",
+  "categories": {
+    "health": {
+      "parts": [
+        {
+          "url": "data/routes/health/part-000.bin",
+          "bytes": 20971520,
+          "sha256": "09e77b427f5ce111612b55ca8d601338a7db70f2ceebdbb9ce881df21f4eb00f"
+        },
+        {
+          "url": "data/routes/health/part-001.bin",
+          "bytes": 20971520,
+          "sha256": "b42553ea83d981eb0ce9e2b8045630ea5f212c629ba48402d77e44cd69680a19"
+        },
+        {
+          "url": "data/routes/health/part-002.bin",
+          "bytes": 20971520,
+          "sha256": "592806ff3404f8b141e6c272a4a5661853dc8add6b83210843c21b50ed33c83d"
+        },
+        {
+          "url": "data/routes/health/part-003.bin",
+          "bytes": 20971520,
+          "sha256": "c1aae1c0ce3c32a8619d8862a3718318aa743c1c0c94b0055877c884179b9ffe"
+        },
+        {
+          "url": "data/routes/health/part-004.bin",
+          "bytes": 20971520,
+          "sha256": "7f62ef055486d7f74ccf621cfa3c0ac23580af898424e4fefc3314fc8287b198"
+        },
+        {
+          "url": "data/routes/health/part-005.bin",
+          "bytes": 20971520,
+          "sha256": "7fc71f05bfcee42f66bae9306b56ea87748e8a04254bb6235f1a6d0171000394"
+        },
+        {
+          "url": "data/routes/health/part-006.bin",
+          "bytes": 3881870,
+          "sha256": "2367a98b655ed48c586c81c1a98c4bc515b25f7476a6eabff5fd8064d74ee5d2"
+        }
+      ],
+      "sha256": "c27de2358aab7455c5c8716b10558775c0c24b65aceec1a8f8b587b24eefeded",
+      "uncompressedBytes": 146832000
+    },
+    "education": {
+      "parts": [
+        {
+          "url": "data/routes/education/part-000.bin",
+          "bytes": 20971520,
+          "sha256": "febd068b4629c72cec2210665d05a1a73413e9ea39ee81c098672cd44a2030ff"
+        },
+        {
+          "url": "data/routes/education/part-001.bin",
+          "bytes": 20971520,
+          "sha256": "69598c99aa9ce818231b802424c16eb64bd1f52ad18453e8ef740e50ba5ae1c7"
+        },
+        {
+          "url": "data/routes/education/part-002.bin",
+          "bytes": 20971520,
+          "sha256": "c315c100c6b9f759921b410af37a597c70ba27f2190ab08c1734243a7d398e9c"
+        },
+        {
+          "url": "data/routes/education/part-003.bin",
+          "bytes": 20971520,
+          "sha256": "48f027dd39f9aee5a52b5f18f1cb58e186ca0ebca84195efdf0e18ef28f76001"
+        },
+        {
+          "url": "data/routes/education/part-004.bin",
+          "bytes": 20658054,
+          "sha256": "623a8d5d0515430bf4b081983e3ee1136c3fb18af64e25d773ad661627690263"
+        }
+      ],
+      "sha256": "c16d4f57af61265e9bce4e703b7766db8b17b58a9c2fe1a10b7b19dd0b99777c",
+      "uncompressedBytes": 118272000
+    },
+    "shopping": {
+      "parts": [
+        {
+          "url": "data/routes/shopping/part-000.bin",
+          "bytes": 20971520,
+          "sha256": "0c1b9127c2ed5f8c896e99af467677281a3363b96ffa7ceae95c3d699bfc1c9f"
+        },
+        {
+          "url": "data/routes/shopping/part-001.bin",
+          "bytes": 20971520,
+          "sha256": "0dd33a0cc483a39b7513a8d1cd4340578b8edddea906bb6e98336cb66391983a"
+        },
+        {
+          "url": "data/routes/shopping/part-002.bin",
+          "bytes": 20971520,
+          "sha256": "32f9864f2b184d8b8a16967cc1b9bbc05a919167e503c589a24c1603864acf7a"
+        },
+        {
+          "url": "data/routes/shopping/part-003.bin",
+          "bytes": 20971520,
+          "sha256": "50962f82e7d89fc331f15ff3e9a127cb2fb964cd73e84b6e5e909e5838679b18"
+        },
+        {
+          "url": "data/routes/shopping/part-004.bin",
+          "bytes": 20971520,
+          "sha256": "bcac981a42b659cdd35c35f824396f24ad33be04b6ce65a5e7e7830f42a88950"
+        },
+        {
+          "url": "data/routes/shopping/part-005.bin",
+          "bytes": 20971520,
+          "sha256": "e36c6ab5ab601362711c9cb867052f2b308d9448c71fe1847268e3bf943d7e6c"
+        },
+        {
+          "url": "data/routes/shopping/part-006.bin",
+          "bytes": 20971520,
+          "sha256": "3a9a5e9408148e9699ddf098744bd388cca1215e9d7cdd8db49bb2667a67ea3e"
+        },
+        {
+          "url": "data/routes/shopping/part-007.bin",
+          "bytes": 17809751,
+          "sha256": "8712647d5d6dcd18d795bee3d46985672762a3b983c808ae24204a6e715f6070"
+        }
+      ],
+      "sha256": "8752d3c44b7902fbc35ff522709311789806b11f3ddf38bb069f9f2a810b9488",
+      "uncompressedBytes": 186256000
+    },
+    "recreation": {
+      "parts": [
+        {
+          "url": "data/routes/recreation/part-000.bin",
+          "bytes": 20971520,
+          "sha256": "506947e97d808f5e023f515728c18fd42d22bee0820a2e395bef4d6cb9562f7f"
+        },
+        {
+          "url": "data/routes/recreation/part-001.bin",
+          "bytes": 20971520,
+          "sha256": "aa2557d2a860c345cbb11f8d98a654271be24f4e55158d2a6027192897976802"
+        },
+        {
+          "url": "data/routes/recreation/part-002.bin",
+          "bytes": 20971520,
+          "sha256": "c86fe3a5b39419bf639a3bfc58d489b02708b687c0b734ff8030bcb3ae26bf68"
+        },
+        {
+          "url": "data/routes/recreation/part-003.bin",
+          "bytes": 20971520,
+          "sha256": "786fbbfff4c66bfe7083d46466cb04d9634444bb8d81ee4c3181247f621d6df1"
+        },
+        {
+          "url": "data/routes/recreation/part-004.bin",
+          "bytes": 20971520,
+          "sha256": "f1a195aae26ca9a92f59ca07cd2260aeb7ddfc926166e78721b78cf5f3884e41"
+        },
+        {
+          "url": "data/routes/recreation/part-005.bin",
+          "bytes": 20971520,
+          "sha256": "d0f4b287619522d89a02369960fbcee057ba42b6bfbc6ccc54fcfc98c16809df"
+        },
+        {
+          "url": "data/routes/recreation/part-006.bin",
+          "bytes": 20971520,
+          "sha256": "c4248fc79dce6155bc86cda68a76568212370dec4427322c81e822b01c3d2f12"
+        },
+        {
+          "url": "data/routes/recreation/part-007.bin",
+          "bytes": 5182439,
+          "sha256": "62e31aa00d59cdadd18d866c7317ba0fd020452f7bb73aa2c41ed968119733f7"
+        }
+      ],
+      "sha256": "21046fb88a64cf124555fcf5f00c9dd2d29354d9870ddac2a56f4f90bbc9c555",
+      "uncompressedBytes": 172032000
+    },
+    "civic": {
+      "parts": [
+        {
+          "url": "data/routes/civic/part-000.bin",
+          "bytes": 20971520,
+          "sha256": "63f0dfe86c074085e8d3f76e12ce7e7b0a42011e57f17cfe7d9f3751fb78787c"
+        },
+        {
+          "url": "data/routes/civic/part-001.bin",
+          "bytes": 20971520,
+          "sha256": "c856716b0fda893b65824d358de716f94240532bb1f2c922bab47d8d7c645a67"
+        },
+        {
+          "url": "data/routes/civic/part-002.bin",
+          "bytes": 9966387,
+          "sha256": "4df551c1b990d9324db54a1730cba856a77f21be53bb106684406543f4510529"
+        }
+      ],
+      "sha256": "4e2150fe899e7e194553c9f4c8bc1dd2551dde9a5e39c253d404f2b504f5587a",
+      "uncompressedBytes": 58688000
+    }
+  }
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.deps/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+# Intermediate full route streams created only when rebuilding.
+dist/data/*.f32.gz

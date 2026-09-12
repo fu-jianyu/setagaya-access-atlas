@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "routeStreamsByteIdenticalToOriginal": 5,
+  "nestedRepositoryPath": true,
+  "recreationComparison": {
+    "preset": "D1",
+    "radius": 10,
+    "gamma": 0.9,
+    "speed": 4.7,
+    "originalChecksum": "144408.274416",
+    "releaseChecksum": "144408.274416",
+    "median": "0.138"
+  },
+  "customCategoryChecks": [
+    {
+      "category": "health",
+      "beta": 0.085,
+      "median": "29.81"
+    },
+    {
+      "category": "education",
+      "beta": 0.085,
+      "median": "22.62"
+    },
+    {
+      "category": "shopping",
+      "beta": 0.085,
+      "median": "34.65"
+    },
+    {
+      "category": "civic",
+      "beta": 0.085,
+      "median": "10.84"
+    }
+  ],
+  "browserErrors": [],
+  "limitations": [
+    "GitHub upload and Pages activation have not been performed.",
+    "macOS and Linux launchers were reviewed, not executed on those operating systems."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "seed": 20260912,
+  "checks": 2955,
+  "mathematicalFixtures": 600,
+  "canonicalNameChecks": 17,
+  "realStreetComparisons": 1300,
+  "networkMappingComparisons": 150,
+  "reports": [
+    {
+      "category": "health",
+      "comparisons": 260,
+      "allFiniteDistances": true
+    },
+    {
+      "category": "education",
+      "comparisons": 260,
+      "allFiniteDistances": true
+    },
+    {
+      "category": "shopping",
+      "comparisons": 260,
+      "allFiniteDistances": true
+    },
+    {
+      "category": "recreation",
+      "comparisons": 260,
+      "allFiniteDistances": true
+    },
+    {
+      "category": "civic",
+      "comparisons": 260,
+      "allFiniteDistances": true
+    }
+  ],
+  "date": "2026-09-12T16:16:50.500Z",
+  "notes": [
+    "Independent Python preset surfaces vs common JS evaluator.",
+    "Real-data checks sample streets; they do not establish empirical validity.",
+    "Graph routing and demand assumptions remain explicit in the guide."
+  ]
+}
